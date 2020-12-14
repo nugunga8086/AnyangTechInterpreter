@@ -1,0 +1,1 @@
+ADD_EXECUTABLE( ../QCI ../Source/QCI_Start.c )
