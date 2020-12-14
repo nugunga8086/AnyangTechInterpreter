@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# CMake 관련
+/QuantumCompilerInterPreter_Main/CMake/CMakeCache.txt
+/QuantumCompilerInterPreter_Main/CMake/cmake_install.cmake
+/QuantumCompilerInterPreter_Main/CMake/CMakeFiles/
+/QuantumCompilerInterPreter_Main/CMake/Makefile
