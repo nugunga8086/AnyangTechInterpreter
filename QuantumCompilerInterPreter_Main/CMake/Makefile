@@ -123,32 +123,35 @@ depend:
 	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/build
 .PHONY : ../QCI/fast
 
-home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.o: home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.o
-
+# target to build an object file
+home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.o:
+	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.o
 .PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.o
 
-# target to build an object file
-home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.o:
-	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.o
-.PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.o
-
-home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.i: home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.i
-
+# target to preprocess a source file
+home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.i:
+	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.i
 .PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.i
 
-# target to preprocess a source file
-home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.i:
-	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.i
-.PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.i
-
-home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.s: home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.s
-
+# target to generate assembly for a file
+home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.s:
+	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.s
 .PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.s
 
+# target to build an object file
+home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.o:
+	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.o
+.PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.o
+
+# target to preprocess a source file
+home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.i:
+	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.i
+.PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.i
+
 # target to generate assembly for a file
-home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.s:
-	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.s
-.PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.s
+home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.s:
+	$(MAKE) -f CMakeFiles/../QCI.dir/build.make CMakeFiles/../QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.s
+.PHONY : home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.s
 
 # Help Target
 help:
@@ -162,6 +165,9 @@ help:
 	@echo "... home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.o"
 	@echo "... home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.i"
 	@echo "... home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.s"
+	@echo "... home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.o"
+	@echo "... home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.i"
+	@echo "... home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.s"
 .PHONY : help
 
 

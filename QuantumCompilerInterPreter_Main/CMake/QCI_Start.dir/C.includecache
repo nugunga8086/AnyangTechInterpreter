@@ -13,14 +13,8 @@ Strings.h
 /home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.h
 
 /home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.h
-stdlib.h
--
 wchar.h
 -
-locale.h
--
-malloc.h
--
-stdbool.h
+stdlib.h
 -
 
