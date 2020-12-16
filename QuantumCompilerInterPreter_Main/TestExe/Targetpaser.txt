@@ -1,0 +1,13 @@
+import Quantum.Apk
+
+obj abc 
+{
+	var a;
+	var b;
+	pointer c;
+}
+
+func main()
+{
+	return 0;
+}

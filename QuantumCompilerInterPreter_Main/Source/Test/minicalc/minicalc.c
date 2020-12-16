@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 typedef enum TokenKindTag{
-	_Print,
+	_Print = 1,
 	_Lparen,
 	_Rparen,
 	_Plus,
@@ -172,6 +172,7 @@ Token nextToken()
 	while(isspace(ch))
 		ch = nextCh();
 
+
 	if(isdigit(ch))
 	{
 		for(num = 0; isdigit(ch); ch = nextCh())
@@ -283,5 +284,6 @@ int pop()
 
 void CheckToken(TokenKind kd)
 {
-	if(token.kind != kd) errF = true;
+	if(token.kind != kd) 
+		errF = true;
 }
