@@ -1,0 +1,3 @@
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Main/CMakeFiles/rebuild_cache.dir
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Main/CMakeFiles/edit_cache.dir
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Main/CMakeFiles/../../QCI.dir

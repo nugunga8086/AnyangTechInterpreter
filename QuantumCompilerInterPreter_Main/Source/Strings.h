@@ -20,11 +20,13 @@ typedef struct StringTag
 	String abc = newString();
 	__setWord(abc, L"안녕하세요 저는 관종입니다. \n 만나서 방가워요");
 
-	wprintf(L"%S\n", __getWord(abc));
+	wprintf(L"%d\n", abc->length);
 
 	__addWord(abc, L"\n안녕하세요 저는 누군가입니다. \n 만나서 너무 싫었어요");
 	__addWord(abc, L"\n나는 안들리오..!");
+	__addChar(abc, L'가');
 	wprintf(L"\nAAAA\n%SAAAA\n", __getWord(abc));
+	wprintf(L"length : %d, size : %d, Str : %S\n", abc->length, abc->size, __getWord(abc));
 
 	delString(abc);
 */
@@ -37,6 +39,6 @@ int __getlen(String);
 wchar_t* __setWord(String, const wchar_t*);
 wchar_t* __getWord(String);
 wchar_t* __addWord(String, const wchar_t*);
-
+wchar_t* __addChar(String, const wchar_t);
 
 #endif

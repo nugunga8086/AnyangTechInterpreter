@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c" "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.o"
-  "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.c" "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.o"
+  "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c" "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.o"
+  "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.c" "/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/QCI.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

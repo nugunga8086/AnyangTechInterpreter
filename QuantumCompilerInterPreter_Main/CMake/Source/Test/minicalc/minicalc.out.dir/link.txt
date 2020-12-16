@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/../../../Source/Test/minicalc/minicalc.out.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Test/minicalc/minicalc.c.o  -o ../../../Source/Test/minicalc/minicalc.out 

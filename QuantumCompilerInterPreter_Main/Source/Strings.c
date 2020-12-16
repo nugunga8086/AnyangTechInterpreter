@@ -113,3 +113,9 @@ wchar_t* __addWord(String str, const wchar_t* word)
 	str->length += sizeWord;
 	return str->value;
 }
+
+wchar_t* __addChar(String str, const wchar_t ch)
+{
+	str->value[str->length++] = ch;
+	return str->value;
+}

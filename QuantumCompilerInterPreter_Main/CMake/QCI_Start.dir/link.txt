@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/../QCI_Start.dir/home/nugunga/Documents/git_repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c.o  -o ../QCI_Start 
