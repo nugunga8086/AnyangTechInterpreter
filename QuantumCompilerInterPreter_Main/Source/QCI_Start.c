@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "Strings.h"
+
+#include "QCI_Globals.h"
 
 int main()
 {

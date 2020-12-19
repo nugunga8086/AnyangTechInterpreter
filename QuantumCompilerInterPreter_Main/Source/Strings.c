@@ -58,28 +58,45 @@ void delString(String str)
 
 int __charlen(const char* word)
 {
-	int i = 0;
-	while(word[i++] != '\0');
-	return i;
+	return __charfindlen(word, '\0');
+}
+
+int __charfindlen(const char* word, char ch)
+{
+	int i, wordsize = __charlen(word);
+	for (i = 0; i < wordsize; i++)
+	{
+		if(word[i] == ch)
+			return i;
+		else
+			continue;
+	}
+	return false;
 }
 
 // String의 길이 구하기
 int __strlen(String str) // \0까지의 길이를 구하는 함수
 {
-	int i, isbool;
-	for (i = 0; i < str->size; i++)
-	{
-		isbool = str->value[i] == '\0' ? true : false;
-		if(isbool)
-			return i;
-	}
-
-	return 0;
+	return __findlen(str, '\0');
 }
 
 int __getlen(String str) // length를 반환해주는 함수
 {
 	return str->length;
+}
+
+int __findlen(String str, wchar_t ch)
+{
+	int i, isbool=false;
+	for (i = 0; i < str->size; i++)
+	{
+		isbool = str->value[i] == ch ? true : false;
+		if(isbool)
+			return i;
+		else
+			continue;
+	}
+	return false;
 }
 
 // 저장

@@ -34,8 +34,10 @@ typedef struct StringTag
 String newString();
 void delString(String);
 int __charlen(const char*);
+int __charfindlen(const char*, char);
 int __strlen(String);
 int __getlen(String);
+int __findlen(String, wchar_t);
 wchar_t* __setWord(String, const wchar_t*);
 wchar_t* __getWord(String);
 wchar_t* __addWord(String, const wchar_t*);

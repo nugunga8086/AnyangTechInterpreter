@@ -6,25 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Func.h
+
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Globals.h
+QCI_Include.h
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Include.h
+QCI_Struct.h
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Struct.h
+QCI_Func.h
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Func.h
+
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Include.h
 stdio.h
 -
-Strings.h
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.h
-
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.c
-Strings.h
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.h
-
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/Strings.h
 stdlib.h
--
-wchar.h
--
-locale.h
--
-malloc.h
 -
 stdbool.h
 -
+malloc.h
+-
+
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Start.c
+QCI_Globals.h
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Globals.h
+
+/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/Source/QCI_Struct.h
 
