@@ -1,3 +1,0 @@
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/minicalc/CMakeFiles/rebuild_cache.dir
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/minicalc/CMakeFiles/edit_cache.dir
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/minicalc/CMakeFiles/../../../Source/Test/minicalc/minicalc.out.dir

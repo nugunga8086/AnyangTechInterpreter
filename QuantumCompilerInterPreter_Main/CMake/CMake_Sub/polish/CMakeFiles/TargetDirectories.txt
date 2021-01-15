@@ -1,3 +1,0 @@
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/polish/CMakeFiles/rebuild_cache.dir
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/polish/CMakeFiles/edit_cache.dir
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/polish/CMakeFiles/../../../Source/Test/polish/polishtest.out.dir

@@ -1,3 +1,0 @@
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/paserTest/CMakeFiles/rebuild_cache.dir
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/paserTest/CMakeFiles/edit_cache.dir
-/home/nugunga/Documents/git repos/QuantumCompilerInterpreter/QuantumCompilerInterPreter_Main/CMake/CMake_Sub/paserTest/CMakeFiles/paserTest.out.dir
