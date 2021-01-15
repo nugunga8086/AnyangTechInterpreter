@@ -1,4 +1,4 @@
-# Install script for directory: /home/nugunga/Desktop/interpreter/Cmake
+# Install script for directory: /home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nugunga/Desktop/interpreter/Cmake/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Cmake/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

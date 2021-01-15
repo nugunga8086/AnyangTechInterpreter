@@ -2,7 +2,7 @@
 SET( CMAKE_C_COMPILER g++ )
 
 ADD_EXECUTABLE ( 
-	../Qi.out
+	../Excute/Qi.out
 	../Qi.cpp
 	../Qi_pars.cpp
 	../Qi_tkn.cpp
