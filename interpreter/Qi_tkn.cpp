@@ -27,7 +27,7 @@ KeyWord KeyWdTbl[] = {
 	{"and", And		  }, {"not", Not	  },
 	{"?"  , Ifsub     }, {"="  , Assign   },
 	{"\\" , IntDivi   }, {","  , Comma    },
-	{"\"" , DblQ      }, 
+	{"\"" , DblQ      }, {"!", Not        },
 	{"@dummy", END_KeyList}
 };
 
