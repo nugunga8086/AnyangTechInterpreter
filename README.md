@@ -24,7 +24,11 @@
 
 # 언어 컴파일 사양
 
-GNU Compiler C 9.3.0
+Compiler : GNU Compiler C 9.3.0
+
+Compile OS : Ubuntu 20.04.1 LTS
+
+
 
 *Test
 
