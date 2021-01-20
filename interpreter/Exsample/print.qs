@@ -1,14 +1,11 @@
 
-var $true, $false
+$true = 1
+$false = 0
 
 
 func foo()
     println "Hello World"
-
-    true = 1
-    false = 0
-
-    println "false : ", false, " true : ", true
+    println "false : ", $false, " true : ", $true
 end
 
 println "Hello Quantum"

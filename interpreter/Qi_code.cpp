@@ -381,7 +381,6 @@ void fncCall(int fncNbr)
 	int  n, argCt = 0;
 	vector<double> vc;
 
-	// 실인수 저장
 	nextCode(); code = nextCode();
 	if (code.kind != ')') {
 		for (;; code=nextCode()) {
@@ -412,7 +411,6 @@ void fncExec(int fncNbr)
 	returnValue = 1.0;
 	code = firstCode(Pc);
 
-	// 인수 저장 처리
 	nextCode(); code = nextCode();
 	if (code.kind != ')') {
 		for (;; code=nextCode()) {

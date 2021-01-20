@@ -1,15 +1,19 @@
+
 func is_prime(n)
-    return 0 ? n == 1       // 어쩌다 보니 알게 된 사실, <- 이 문법은 yield return 과 같은 의미임
+    return $false ? n == 1 or n < 0 // <- 이 문법은 뒤에 있는 조건식이 참일 때만 0을 반환 아니라면 밑에 실행
 
     for i=2 to n - 1
         if n % i == 0
-            return 0
+            return $false
         end
     end
-    return 1
+    return $true
 end
 
 func main()
+
+    $true = 1
+    $false= 0
 
     for n=1 to 1000
         if is_prime(n)

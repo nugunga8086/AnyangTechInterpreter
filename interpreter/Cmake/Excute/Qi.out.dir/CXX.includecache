@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.cpp
-Qi.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.h
+/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.h
 iostream
 -
 fstream
@@ -36,35 +30,11 @@ cmath
 cctype
 -
 
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp
-Qi.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
+/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
 
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp
+/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp
 Qi.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.h
+/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.h
 Qi_prot.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp
-Qi.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp
-Qi.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp
-Qi.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/git/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
+/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_prot.h
 

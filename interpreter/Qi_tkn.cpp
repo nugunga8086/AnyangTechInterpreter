@@ -23,12 +23,12 @@ KeyWord KeyWdTbl[] = {
 	{"==" , Equal     }, {"!=" , NotEq    },
 	{"<"  , Less      }, {"<=" , LessEq   },
 	{">"  , Great     }, {">=" , GreatEq  },
-	{"&&" , And       }, {"||" , Or       },
-	{"!"  , Not       }, {"%"  , Mod      },
+	{"%"  , Mod		  }, {"or",  Or		  },
+	{"and", And		  }, {"not", Not	  },
 	{"?"  , Ifsub     }, {"="  , Assign   },
 	{"\\" , IntDivi   }, {","  , Comma    },
-	{"\"" , DblQ      },
-	{"@dummy", END_KeyList},
+	{"\"" , DblQ      }, 
+	{"@dummy", END_KeyList}
 };
 
 int srcLineno;
