@@ -22,6 +22,15 @@
 
 * 아직 추가 기능을 만들지 못했고
 
+# 언어 컴파일 사양
+
+GNU Compiler C 9.3.0
+
+*Test
+Windows 10
+Ubuntu 20.04.1 LTS
+
+
 
 # 사용법
 
