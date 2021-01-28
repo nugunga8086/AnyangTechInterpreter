@@ -7,7 +7,7 @@ struct KeyWord {
 };
 
 KeyWord KeyWdTbl[] = {
-	{"func"   , Func  }, {"var"    , Var    },
+	{"def"   , Func  }, {"var"    , Var    },
 	{"if"     , If    }, {"elif"   , Elif   },
 	{"else"   , Else  }, {"for"    , For    },
 	{"to"     , To    }, {"step"   , Step   },
