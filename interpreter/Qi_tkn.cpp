@@ -25,9 +25,11 @@ KeyWord KeyWdTbl[] = {
 	{">"  , Great     }, {">=" , GreatEq  },
 	{"%"  , Mod		  }, {"or",  Or		  },
 	{"and", And		  }, {"not", Not	  },
-	{"?"  , Ifsub     }, {"="  , Assign   },
+	{"?"  , Ifsub     }, {"="  , Equal   },
 	{"\\" , IntDivi   }, {","  , Comma    },
 	{"\"" , DblQ      }, {"!", Not        },
+	{"true", True}, {"false", False},
+	{"<-", Assign},
 	{"@dummy", END_KeyList}
 };
 
@@ -53,7 +55,7 @@ void initChTyp()
 	ctyp['+']  = Plus;      ctyp['-']  = Minus;
 	ctyp['*']  = Multi;     ctyp['/']  = Divi;
 	ctyp['!']  = Not;       ctyp['%']  = Mod;
-	ctyp['?']  = Ifsub;     ctyp['=']  = Assign;
+	ctyp['?']  = Ifsub;     ctyp['=']  = Equal;
 	ctyp['\\'] = IntDivi;   ctyp[',']  = Comma;
 	ctyp['\"'] = DblQ;
 }
@@ -123,9 +125,15 @@ Token nextTkn()
 		if (is_ope2(CH, C2)) { txt += CH; txt += C2; NEXT_CH(); NEXT_CH(); }
 		else                 { txt += CH; NEXT_CH(); }
 	}
-	kd = get_kind(txt);
 
-	if (kd == Others) err_exit("잘못된 토큰입니다. : ", txt);
+	kd = get_kind(txt);
+	switch (kd)
+	{
+		case True: return Token(IntNum, 1.0f); break;
+		case False: return Token(IntNum, 0.0f); break;
+		case Others: err_exit("잘못된 토큰입니다. : ", txt); break;
+	}
+
 	return Token(kd, txt);
 }
 
@@ -134,7 +142,7 @@ bool is_ope2(char c1, char c2)
 	char s[] = "    ";
 	if (c1=='\0' || c2=='\0') return false;
 	s[1] = c1; s[2] = c2;
-	return strstr(" ++ -- <= >= == != && || ", s) != NULL;
+	return strstr(" ++ -- <= >= == != && || <- ", s) != NULL;
 }
 
 TknKind get_kind(const string& s)

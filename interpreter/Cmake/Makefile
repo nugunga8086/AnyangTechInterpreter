@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake
+CMAKE_SOURCE_DIR = /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake
+CMAKE_BINARY_DIR = /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/CMakeFiles /home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/CMakeFiles /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,167 +123,167 @@ depend:
 	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/build
 .PHONY : ../Excute/Qi.out/fast
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.o: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.o: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.o
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.o
-
-# target to build an object file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.o:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.o
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.o
-
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.i: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.i
-
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.i
-
-# target to preprocess a source file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.i:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.i
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.i
-
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.s: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.s
-
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.s
-
-# target to generate assembly for a file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.s:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.s
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.s
-
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.o: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.o
-
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.o
 
 # target to build an object file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.o:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.o
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.o:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.o
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.i: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.i: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.i
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.i
 
 # target to preprocess a source file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.i:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.i
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.i:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.i
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.s: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.s: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.s
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.s
 
 # target to generate assembly for a file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.s:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.s
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.s:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.s
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.o: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.o: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.o
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.o
 
 # target to build an object file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.o:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.o
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.o:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.o
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.i: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.i: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.i
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.i
 
 # target to preprocess a source file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.i:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.i
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.i:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.i
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.s: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.s: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.s
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.s
 
 # target to generate assembly for a file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.s:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.s
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.s:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.s
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.o: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.o: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.o
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.o
 
 # target to build an object file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.o:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.o
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.o:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.o
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.i: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.i: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.i
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.i
 
 # target to preprocess a source file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.i:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.i
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.i:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.i
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.s: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.s: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.s
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.s
 
 # target to generate assembly for a file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.s:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.s
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.s:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.s
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.o: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.o: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.o
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.o
 
 # target to build an object file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.o:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.o
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.o:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.o
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.i: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.i: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.i
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.i
 
 # target to preprocess a source file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.i:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.i
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.i:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.i
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.s: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.s: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.s
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.s
 
 # target to generate assembly for a file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.s:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.s
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.s:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.s
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.o: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.o: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.o
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.o
 
 # target to build an object file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.o:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.o
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.o
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.o:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.o
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.i: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.i: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.i
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.i
 
 # target to preprocess a source file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.i:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.i
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.i
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.i:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.i
 
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.s: home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.s: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.s
 
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.s
 
 # target to generate assembly for a file
-home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.s:
-	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.s
-.PHONY : home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.s
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.s:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.s
+
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.o: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.o
+
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.o
+
+# target to build an object file
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.o:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.o
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.o
+
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.i: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.i
+
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.i
+
+# target to preprocess a source file
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.i:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.i
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.i
+
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.s: home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.s
+
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.s
+
+# target to generate assembly for a file
+home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.s:
+	$(MAKE) -f CMakeFiles/../Excute/Qi.out.dir/build.make CMakeFiles/../Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.s
+.PHONY : home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.s
 
 # Help Target
 help:
@@ -294,24 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ../Excute/Qi.out"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.o"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.i"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.s"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.o"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.i"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.s"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.o"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.i"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.s"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.o"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.i"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.s"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.o"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.i"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.s"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.o"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.i"
-	@echo "... home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.s"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.o"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.i"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.s"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.o"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.i"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.s"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.o"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.i"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.s"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.o"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.i"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.s"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.o"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.i"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.s"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.o"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.i"
+	@echo "... home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.s"
 .PHONY : help
 
 

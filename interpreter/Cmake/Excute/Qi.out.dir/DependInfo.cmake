@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp" "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi.cpp.o"
-  "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp" "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_code.cpp.o"
-  "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp" "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_misc.cpp.o"
-  "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp" "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_pars.cpp.o"
-  "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp" "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tbl.cpp.o"
-  "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp" "/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/QuantumCompilerInterpreterTest/interpreter/Qi_tkn.cpp.o"
+  "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp" "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.cpp.o"
+  "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp" "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp.o"
+  "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp" "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp.o"
+  "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp" "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp.o"
+  "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp" "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp.o"
+  "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp" "/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Cmake/Excute/Qi.out.dir/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -19,6 +19,7 @@ using namespace std;
 #define LIN_SIZ 255
 
 enum TknKind {
+	False=0, True=1,
 	Lparen='(', Rparen=')', Lbracket='[', Rbracket=']', Plus='+', Minus='-',
 	Multi='*',  Divi='/',   Mod='%',      Not='!',      Ifsub='?',  Assign='=',
 	IntDivi='\\', Comma=',',     DblQ='"',

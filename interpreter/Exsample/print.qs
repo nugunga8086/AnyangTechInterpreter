@@ -1,11 +1,8 @@
 
-$true = 1
-$false = 0
-
-
 def foo()
-    println "Hello World"
-    println "false : ", $false, " true : ", $true
+    a <- 100
+    c <- a = 1
+    println c
 end
 
 println "Hello Quantum"
