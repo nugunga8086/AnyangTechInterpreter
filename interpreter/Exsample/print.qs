@@ -3,7 +3,7 @@ $true = 1
 $false = 0
 
 
-func foo()
+def foo()
     println "Hello World"
     println "false : ", $false, " true : ", $true
 end
