@@ -79,4 +79,3 @@ string dbl_to_s(double d);
 string err_msg(const string& a, const string& b);
 void err_exit(Tobj a="\1", Tobj b="\1", Tobj c="\1", Tobj d="\1");
 void prt(Tobj a="\1", Tobj b="\1", Tobj c="\1", Tobj d="\1", Tobj e="\1", Tobj f="\1", Tobj g="\1", Tobj h="\1");
-

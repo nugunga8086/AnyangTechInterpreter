@@ -151,7 +151,7 @@ TknKind get_kind(const string& s)
 		if (s == KeyWdTbl[i].keyName) return KeyWdTbl[i].keyKind;
 	}
 	if (ctyp[s[0]]==Letter || ctyp[s[0]]==Doll) return Ident;
-	if (ctyp[s[0]] == Digit)  return DblNum;
+	if (ctyp[s[0]]==Digit)  return DblNum;
 	return Others;
 }
 
