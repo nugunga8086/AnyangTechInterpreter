@@ -30,11 +30,11 @@ cmath
 cctype
 -
 
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp
+/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
+
+/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp
 Qi.h
 /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.h
 Qi_prot.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
-
 /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
 

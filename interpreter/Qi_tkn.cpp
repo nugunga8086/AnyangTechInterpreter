@@ -20,12 +20,12 @@ KeyWord KeyWdTbl[] = {
 	{"["  , Lbracket  }, {"]"  , Rbracket },
 	{"+"  , Plus      }, {"-"  , Minus    },
 	{"*"  , Multi     }, {"/"  , Divi     },
-	{"==" , Equal     }, {"!=" , NotEq    },
+	{"=" , Equal     }, {"!=" , NotEq    },
 	{"<"  , Less      }, {"<=" , LessEq   },
 	{">"  , Great     }, {">=" , GreatEq  },
 	{"%"  , Mod		  }, {"or",  Or		  },
 	{"and", And		  }, {"not", Not	  },
-	{"?"  , Ifsub     }, {"="  , Equal   },
+	{"?"  , Ifsub     }, {"=="  , Equal   },
 	{"\\" , IntDivi   }, {","  , Comma    },
 	{"\"" , DblQ      }, {"!", Not        },
 	{"true", True}, {"false", False},
@@ -168,6 +168,7 @@ void set_token_p(char *p)
 
 string kind_to_s(int kd)
 {
+	if(kd == Equal)	return "=, ==";
 	for (int i=0; ; i++) {
 		if (KeyWdTbl[i].keyKind == END_KeyList) break;
 		if (KeyWdTbl[i].keyKind == kd) return KeyWdTbl[i].keyName;
