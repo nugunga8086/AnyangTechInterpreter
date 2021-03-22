@@ -17,6 +17,11 @@ using namespace std;
 #define SHORT_P(p) (short int *)(p)
 #define UCHAR_P(p) (unsigned char *)(p)
 #define LIN_SIZ 255
+#define _C_and &&
+#define _C_or ||
+#define _C_not !
+#define __CompileOS__ Ubuntu
+
 
 enum TknKind {
 	False=0, True=1,

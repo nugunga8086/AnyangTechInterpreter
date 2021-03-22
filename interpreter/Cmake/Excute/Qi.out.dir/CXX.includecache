@@ -36,35 +36,5 @@ cmath
 cctype
 -
 
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_code.cpp
-Qi.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_misc.cpp
-Qi.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_pars.cpp
-Qi.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tbl.cpp
-Qi.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.h
-Qi_prot.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
-
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_tkn.cpp
-Qi.h
-/home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi.h
-Qi_prot.h
 /home/nugunga/Desktop/AnyangTechInterpreter/interpreter/Qi_prot.h
 

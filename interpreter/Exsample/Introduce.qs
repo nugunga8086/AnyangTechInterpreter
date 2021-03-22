@@ -125,7 +125,8 @@ println f2(6)                                           // 출력
 
 // 최적화를 더 하면 이딴 것도 가능
 def f3(n)                                               // 함수 정의
-    return n * f1(n - 1) ? n != 2                       // n * n - 1을 호출 (재귀함수)
+    return 2 ? n == 2
+    return n * f3(n - 1)                                // n * n - 1을 호출 (재귀함수)
 end
 
 println f3(6)                                           // 출력
