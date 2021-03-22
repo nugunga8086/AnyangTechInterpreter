@@ -7,7 +7,7 @@ struct KeyWord {
 };
 
 KeyWord KeyWdTbl[] = {
-	{"def"   , Func  }, {"var"    , Var    },
+	{"def"   , Func   }, {"var"    , Var    },
 	{"if"     , If    }, {"elif"   , Elif   },
 	{"else"   , Else  }, {"for"    , For    },
 	{"to"     , To    }, {"step"   , Step   },
@@ -16,20 +16,20 @@ KeyWord KeyWdTbl[] = {
 	{"print"  , Print }, {"println", Println},
 	{"option" , Option}, {"input"  , Input  },
 	{"toint"  , Toint }, {"exit"   , Exit   },
-	{"("  , Lparen    }, {")"  , Rparen   },
-	{"["  , Lbracket  }, {"]"  , Rbracket },
-	{"+"  , Plus      }, {"-"  , Minus    },
-	{"*"  , Multi     }, {"/"  , Divi     },
-	{"=" , Equal     }, {"!=" , NotEq    },
-	{"<"  , Less      }, {"<=" , LessEq   },
-	{">"  , Great     }, {">=" , GreatEq  },
-	{"%"  , Mod		  }, {"or",  Or		  },
-	{"and", And		  }, {"not", Not	  },
-	{"?"  , Ifsub     }, {"=="  , Equal   },
-	{"\\" , IntDivi   }, {","  , Comma    },
-	{"\"" , DblQ      }, {"!", Not        },
-	{"true", True}, {"false", False},
-	{"<-", Assign},
+	{"("  , Lparen    }, {")"  , Rparen     },
+	{"["  , Lbracket  }, {"]"  , Rbracket   },
+	{"+"  , Plus      }, {"-"  , Minus      },
+	{"*"  , Multi     }, {"/"  , Divi       },
+	{"=" , Equal      }, {"!=" , NotEq      },
+	{"<"  , Less      }, {"<=" , LessEq     },
+	{">"  , Great     }, {">=" , GreatEq    },
+	{"%"  , Mod		  }, {"or",  Or		    },
+	{"and", And		  }, {"not", Not	    },
+	{"?"  , Ifsub     }, {"=="  , Equal     },
+	{"\\" , IntDivi   }, {","  , Comma      },
+	{"\"" , DblQ      }, {"!", Not          },
+	{"true", True     }, {"false", False    },
+	{"<-", Assign     },
 	{"@dummy", END_KeyList}
 };
 
