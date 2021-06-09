@@ -22,10 +22,12 @@ Ubuntu 20.04.1 LTS
 
 
 # 사용법
+  실행 파일은 Excute 폴더에, 예제 파일은 Exsample 폴더에 있습니다.
+
 
  1. cmd (유저모드)
- 2. 프로그램이 있는 위치까지 이동 (exsample cd c:\\~\Download)
- 3. 소스 파일 실행 (exsample 폴더 안에 예제 있습니다, .\qi.exe target.source)
+ 2. 프로그램이 있는 위치까지 이동 (exsample cd c:\\~interpreter\\Excute)
+ 3. 소스 파일 실행 (.\qi.exe target.source)
  4. 결과 확인
 
 # 문제 발생하는 경우
@@ -47,3 +49,9 @@ Ubuntu 20.04.1 LTS
     
     윈도우의 경우 mingw,
     리눅스와 맥등 유닉스 환경에서 build-essential을 다운 받으시면 오류가 해결됩니다.
+    
+ 4. 파일이 실행이 안됨
+    
+    파일 주소 중에 한글이 있을 경우 문제가 발생할 가능성이 높습니다.
+    
+    한글이 없는 위치에 프로그램을 옮겨주세요 
